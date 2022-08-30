@@ -18,7 +18,7 @@ public class AutenticacaoService implements UserDetailsService {
 	@Autowired
 	private UsuarioRepository usuarioRepository;
 	
-	@Autowired
+	@Autowired    
 	private PasswordEncoder encoder;
 
 	@Override
