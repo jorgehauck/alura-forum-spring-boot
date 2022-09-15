@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import br.com.alura.forum.config.security.AutenticacaoService;
+import br.com.alura.forum.controller.dto.UsuarioDto;
 import br.com.alura.forum.modelo.Usuario;
 
 @RestController
